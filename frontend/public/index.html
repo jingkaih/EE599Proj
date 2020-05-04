@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Translator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">Online batch translator</h1>
+            <p class="lead">This is a batch translator, you can upload a compressed file with text files inside and this tool will give you a translated version.</p>
+            <hr class="my-4">
+            <p>All you need to do is:</p>
+            <p>Step 1: submit</p>
+            <p>Step 2: press the translate button and wait</p>
+            <form action="/form" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile04"  name="demo" aria-describedby="inputGroupFileAddon04">
+                      <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Submit</button>
+                    </div>
+                  </div>
+                </form>
+          </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="rsltpage" data-container="body" data-toggle="popover" data-placement="bottom" data-content="please give me some time">Translate!</button>
+       
+        <div class="d-flex align-items-center">
+            <strong id = "loading">Please give me some time...</strong>
+            <div class="spinner-border ml-auto" role="status" aria-hidden="true" id = "loader"></div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
