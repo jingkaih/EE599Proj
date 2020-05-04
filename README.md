@@ -45,7 +45,7 @@ User can compress several text files that s/he wants to translate in avoidance o
 # Screenshots of the demo
 Here is an example of *MAP.JSON*:  
 ![MAP.JSON](JSON.png)  
-Notice that languages are represented by ISO language code here. (i.e. "zh-cn"=Simplified Chinese, "fr"=French)  
+Notice that languages are represented by ISO language code here. (e.g. "zh-cn"=Simplified Chinese, "fr"=French)  
 An example of *.zip*:  
 ![.zip](demozip.png)  
 The main page that you can upload:  
