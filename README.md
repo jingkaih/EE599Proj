@@ -1,19 +1,3 @@
-Run
-
-"npm install"
-
-in command line, wait a few seconds until all modules are installed, and then go to path:
-
-"node_modules\google-translate-api"
-
-and open
-
-"index.js"
-
-use "ctrl+f" find "client", change its value from "t" to "gtx", then save.
-
-Do not remove the backend/unzipped_rslt directory!
-
 # Description of the project
 This is an online batch translator, it allows user to upload a *.zip* file that includes *.txt* message in foreign languages and a *MAP.JSON* file which specifies the language that understandable to user. Online batch translator will do its job and return a *.zip* file.  
 # Things to do before run the code
@@ -23,8 +7,9 @@ in command line, wait a few seconds until all modules are installed, and then go
 *node_modules\google-translate-api*  
 and open  
 *index.js*  
+![index.js](index.png)  
 press "ctrl+f" find "client", change its value from "t" to "gtx", then save.  
-
+!["t" to "gtx"](ttogtx.png)  
 **Do not remove the backend/unzipped_rslt directory!**
 # Features
 #### Reliable Translation
