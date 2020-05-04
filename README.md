@@ -1,5 +1,5 @@
 # Description of the project
-This is an online batch translator, it allows user to upload a *.zip* file that includes *.txt* message in foreign languages and a *MAP.JSON* file which specifies the language that understandable to user. Online batch translator will do its job and return a *.zip* file.  
+This is an online batch translator, it allows user to upload a *.zip* file that includes *.txt* message in foreign languages A, B, C ... and a *MAP.JSON* file which specifies the languages X, Y, Z ... that understandable to user. Online batch translator will do its job and return a *.zip* file.  
 # Things to do before run the code
 Run  
 `npm install`  
@@ -10,7 +10,8 @@ and open
 ![index.js](index.png)  
 press "ctrl+f" find "client", change its value from "t" to "gtx", then save.  
 !["t" to "gtx"](ttogtx.png)  
-**Do not remove the backend/unzipped_rslt directory!**
+**Do not remove the backend/unzipped_rslt directory!**  
+**You can use demo.zip that I provided for testing.** 
 # Features
 #### Reliable Translation
 This tool is powered by Google Translate API, which is the number one popular translator in the whole world, supporting over 103 languages and most importantly, free!
